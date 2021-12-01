@@ -1,9 +1,9 @@
 from typing import Text
 
-
+#retorna o palindromo
 def palindrome(text):
     return text == text[::-1]
-
+#testa se é ou um palindromo
 def main():
     text = input("Input: ")
     if(palindrome(test)): 
